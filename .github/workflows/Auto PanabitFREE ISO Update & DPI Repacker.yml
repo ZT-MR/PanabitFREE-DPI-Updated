@@ -3,7 +3,7 @@ name: Auto PanabitFREE ISO Update & DPI Repacker
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *' # 北京时间 (UTC+8) 每天 18:00 自动运行
+    - cron: '0 14 * * *' # 北京时间 (UTC+8) 每天 18:00 自动运行
 
 permissions:
   contents: write
